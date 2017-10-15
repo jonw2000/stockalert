@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/checker.iml" filepath="$PROJECT_DIR$/.idea/modules/checker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/checker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/checker_main.iml" group="checker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/checker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/checker_test.iml" group="checker" />
+    </modules>
+  </component>
+</project>

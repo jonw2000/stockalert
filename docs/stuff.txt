@@ -1,0 +1,14 @@
+
+
+Schedule AWS Lambda events
+
+http://docs.aws.amazon.com/lambda/latest/dg/with-scheduledevents-example.html
+
+
+Algorithm
+
+1. Extract asset and driver from repo
+2. Extract alert data from repo
+2. Lookup asset data on web
+3. Run through alert checks
+4. Email if alert breached
