@@ -7,14 +7,16 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    testCompile group: 'org.scalacheck', name: 'scalacheck_2.11', version: '1.13.5'
-    testCompile 'org.scalatest:scalatest_2.11:3.0.0'
+    testCompile group: 'org.scalacheck', name: 'scalacheck_2.12', version: '1.13.5'
+    testCompile 'org.scalatest:scalatest_2.12:3.0.4'
     testCompile 'junit:junit:4.12'
 
-    compile 'org.scala-lang:scala-library:2.11.8'
-    compile group: 'io.reactivex', name: 'rxscala_2.11', version: '0.26.5'
-    compile group: 'com.itv', name: 'lifecycle_2.11', version: '0.2'
+    compile 'org.scala-lang:scala-library:2.12.3'
+    compile group: 'io.reactivex', name: 'rxscala_2.12', version: '0.26.5'
+    compile group: 'com.itv', name: 'lifecycle_2.12', version: '0.19'
+    compile 'com.github.jonw2000:finscrapes:0.2'
 }

@@ -1,6 +1,6 @@
 package com.artamedia.checker.testutil
 
-import com.artamedia.checker.domain.{Asset, Check, CheckType, HighCheck, LowCheck, Price, Symbol}
+import com.artamedia.checker.domain.{Check, CheckType, HighCheck, LowCheck, Price, PricedAsset, Symbol}
 import org.scalacheck.{Arbitrary, Gen}
 
 object CheckerGenerators {
@@ -11,7 +11,7 @@ object CheckerGenerators {
 
   implicit val priceGen = Arbitrary(Gen.resultOf(Price))
 
-  implicit val assetGen = Arbitrary(Gen.resultOf(Asset))
+  implicit val pricedAssetGen = Arbitrary(Gen.resultOf(PricedAsset))
 
   implicit val checkGen = Arbitrary(Gen.resultOf(Check))
 }

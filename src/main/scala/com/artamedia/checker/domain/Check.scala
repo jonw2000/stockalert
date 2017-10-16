@@ -4,4 +4,4 @@ sealed trait CheckType
 case object LowCheck extends CheckType
 case object HighCheck extends CheckType
 
-case class Check(asset: Asset, price: Price, checkType: CheckType)
+case class Check(assetSymbol: Symbol, price: Price, checkType: CheckType)
